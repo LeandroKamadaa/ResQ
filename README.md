@@ -84,7 +84,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## ✨ Equipe
 
 - Leonardo Pierangelli (RM - 560501)
-- 
+- Leandro Kamada (RM - 560381)
 - 
 
 ## 📞 Contato

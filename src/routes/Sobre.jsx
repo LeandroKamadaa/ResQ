@@ -1,3 +1,7 @@
+import leandroImg from '../assets/leandro.png';
+import leonardoImg from '../assets/leonardo.png';
+import pedroImg from '../assets/pedro.png';
+
 const Sobre = () => {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -91,19 +95,19 @@ const Sobre = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Nossa Equipe</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold">João Silva</h3>
-              <p className="text-gray-600">Desenvolvedor Front-end</p>
+              <img src={leandroImg} alt="Leandro Kamada" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
+              <h3 className="text-xl font-semibold">Leandro Kamada</h3>
+              <p className="text-gray-600">Engenheiro de Software</p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold">Maria Santos</h3>
-              <p className="text-gray-600">UX/UI Designer</p>
+              <img src={leonardoImg} alt="Leonardo Pierangelli" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
+              <h3 className="text-xl font-semibold">Leonardo Pierangelli</h3>
+              <p className="text-gray-600">Engenheiro de Software</p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold">Pedro Oliveira</h3>
-              <p className="text-gray-600">Desenvolvedor Back-end</p>
+              <img src={pedroImg} alt="Pedro Arão" className="w-32 h-32 rounded-full mx-auto mb-4 object-cover" />
+              <h3 className="text-xl font-semibold">Pedro Arão</h3>
+              <p className="text-gray-600">Engenheiro de Software</p>
             </div>
           </div>
         </div>

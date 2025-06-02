@@ -1,17 +1,31 @@
-import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Home from './routes/Home'
+import Login from './routes/Login'
+import Solucao from './routes/Solucao'
+import Sobre from './routes/Sobre'
+import Cadastrar from './routes/Cadastrar'
+import Error from './routes/Error'
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Nav />
-      <main className="flex-grow p-4">
-        {/* Aqui vai o conteúdo das suas rotas/pages */}
-        <h1 className="text-3xl font-bold text-center mt-10">Bem-vindo ao ResQ</h1>
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="flex flex-col min-h-screen">
+        <Nav />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/solucao" element={<Solucao />} />
+            <Route path="/sobre" element={<Sobre />} />
+            <Route path="/cadastrar" element={<Cadastrar />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   )
 }
 

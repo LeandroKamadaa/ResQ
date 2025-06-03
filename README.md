@@ -2,6 +2,12 @@
 
 ResQ é uma aplicação web desenvolvida para atuar como uma ferramenta eficiente, leve e offline-first para o registro, visualização e coordenação de pedidos de ajuda durante desastres naturais, principalmente em áreas com infraestrutura precária.
 
+## ✨ Equipe
+
+- Leonardo Pierangelli (RM - 560501)
+- Leandro Kamada (RM - 560381)
+- 
+
 ## 🚀 Funcionalidades
 
 - **Registro Offline**: Registre pedidos de ajuda com geolocalização, texto e fotos mesmo sem conexão
@@ -80,12 +86,6 @@ O projeto utiliza Tailwind CSS para estilização, seguindo os princípios:
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## ✨ Equipe
-
-- Leonardo Pierangelli (RM - 560501)
-- Leandro Kamada (RM - 560381)
-- 
 
 ## 📞 Contato
 

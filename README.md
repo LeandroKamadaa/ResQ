@@ -8,6 +8,10 @@ ResQ é uma aplicação web desenvolvida para atuar como uma ferramenta eficient
 - Leandro Kamada (RM - 560381)
 - 
 
+## 📄 Github
+
+[ResQ](https://github.com/LeandroKamadaa/ResQ)
+
 ## 🚀 Funcionalidades
 
 - **Registro Offline**: Registre pedidos de ajuda com geolocalização, texto e fotos mesmo sem conexão

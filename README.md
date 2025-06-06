@@ -6,7 +6,7 @@ ResQ é uma aplicação web desenvolvida para atuar como uma ferramenta eficient
 
 - Leonardo Pierangelli (RM - 560501)
 - Leandro Kamada (RM - 560381)
-- 
+- Pedro Arao Baquini (RM - 559580)
 
 ## 📄 Github
 
